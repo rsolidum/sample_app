@@ -23,6 +23,8 @@ end
 gem 'jquery-rails', '2.0.1'
 
 group :test do
+  gem 'database_cleaner'
+  gem 'cucumber-rails', '1.2.1', :require => false
   gem 'capybara', '1.1.2'
 end
 
